@@ -8,7 +8,7 @@
 # Description: Build OpenWrt using GitHub Actions
 #
 ###############手动修改##############
-name: JDCloud-AX1800-Pro-JiaY-shi
+name: JDCloud-AX1800-Pro
 
 on:
   repository_dispatch:
@@ -17,7 +17,7 @@ on:
       TEMP:
         description: 'Show soc status and wifi temperature on luci'
         required: true
-        default: true
+        default: false
         type: boolean
       NO_DOCKERMAN:
         description: 'Not build luci-app-dockerman'
@@ -33,7 +33,7 @@ on:
 
 env:
   ###############手动修改##############
-  OPENWRT_NAME: JiaY-shi
+  OPENWRT_NAME: VIKINGYFY
   REPO_URL: https://github.com/VIKINGYFY/immortalwrt
   REPO_BRANCH: main
   FEEDS_CONF: feeds.conf.default
