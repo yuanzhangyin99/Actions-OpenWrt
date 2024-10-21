@@ -34,8 +34,8 @@ on:
 env:
   ###############手动修改##############
   OPENWRT_NAME: JiaY-shi
-  REPO_URL: https://github.com/JiaY-shi/openwrt
-  REPO_BRANCH: ipq60xx-devel_nss
+  REPO_URL: https://github.com/VIKINGYFY/immortalwrt
+  REPO_BRANCH: main
   FEEDS_CONF: feeds.conf.default
   CONFIG_FILE: JDCloud-AX1800-Pro/.config
   DIY_P1_SH: JDCloud-AX1800-Pro/diy-part1.sh
