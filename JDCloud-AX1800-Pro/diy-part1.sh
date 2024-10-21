@@ -14,7 +14,13 @@
 #sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
 
 # Add a feed source
-git clone https://github.com/kenzok8/openwrt-packages package/kenzo
-git clone https://github.com/kenzok8/small package/small
-git clone https://github.com/yuanzhangyin99/5G-Modem-Support package/yuanzhangyin99
-# git clone https://github.com/kiddin9/openwrt-packages package/kiddin9
+
+git clone https://github.com/immortalwrt/packages package/packages
+git clone https://github.com/immortalwrt/luci package/luci
+git clone https://github.com/openwrt/routing package/routing
+git clone https://github.com/openwrt/telephony package/telephony
+git clone https://github.com/qosmio/nss-packages package/nss-packages
+git clone https://github.com/qosmio/sqm-scripts-nss package/sqm-scripts-nss
+git clone https://github.com/bkspc/packages package/bkspc
+git clone https://github.com/kenzok8/openwrt-packages package/kenzok8
+git clone https://github.com/fw876/helloworld package/fw876
